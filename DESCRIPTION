@@ -1,0 +1,12 @@
+Package: scCity
+Title: What the Package Does (One Line, Title Case)
+Version: 0.0.0.9000
+Authors@R: 
+    person("Denis", "O'Meally", , "domeally@coh.org", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7749-9506"))
+Description: What the package does (one paragraph).
+License: CC-BY-NC-ND
+Encoding: UTF-8
+Language: en-AU
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
