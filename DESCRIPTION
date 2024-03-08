@@ -5,8 +5,13 @@ Authors@R:
     person("Denis", "O'Meally", , "domeally@coh.org", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7749-9506"))
 Description: What the package does (one paragraph).
-License: CC-BY-NC-ND
+License: MIT + file LICENSE
 Encoding: UTF-8
 Language: en-AU
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
+Imports: 
+    magrittr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
