@@ -74,13 +74,14 @@
 <img src="logo.png" class="logo" alt=""><h1 id="sccity-">scCity <a class="anchor" aria-label="anchor" href="#sccity-"></a>
 </h1>
 </div>
-<p>The goal of scCity is to …</p>
+<p>The goal of scCity is to streamline the process of conducting single-cell analyses on the City of Hope High-Performance Computing (HPC) infrastructure. By leveraging the <code>hprcc</code> package (<a href="https://github.com/cohmathonc/hprcc/" class="external-link uri">https://github.com/cohmathonc/hprcc/</a>), scCity abstracts the complexities involved in a typical single-cell analysis, enabling researchers to quickly and efficiently begin their work. The package integrates seamlessly with the R/Bioconductor container environment, as detailed here (<a href="https://github.com/drejom/vscode-rbioc" class="external-link uri">https://github.com/drejom/vscode-rbioc</a>), facilitating a smooth workflow for users of the City of Hope HPC.</p>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the development version of scCity like so:</p>
+<p>To install the development version of scCity, use the following command:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="co"># FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"drejom/scCity"</span><span class="op">)</span></span></code></pre></div>
+<p>Please note, the remotes package is required for this installation method. If you do not have remotes installed, you can install it first using install.packages(“remotes”).</p>
 </div>
 <div class="section level2">
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
