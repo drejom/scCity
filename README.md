@@ -6,15 +6,16 @@
 
 # scCity <img src="man/figures/logo.png" align="right" height="240"/>
 
-The goal of scCity is to ...
+The goal of scCity is to streamline the process of conducting single-cell analyses on the City of Hope High-Performance Computing (HPC) infrastructure. By leveraging the `hprcc` package (https://github.com/cohmathonc/hprcc/), scCity abstracts the complexities involved in a typical single-cell analysis, enabling researchers to quickly and efficiently begin their work. The package integrates seamlessly with the R/Bioconductor container environment, as detailed here (https://github.com/drejom/vscode-rbioc), facilitating a smooth workflow for users of the City of Hope HPC.
 
 ## Installation
 
-You can install the development version of scCity like so:
+To install the development version of scCity, use the following command:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+remotes::install_github("drejom/scCity")
 ```
+Please note, the remotes package is required for this installation method. If you do not have remotes installed, you can install it first using install.packages("remotes").
 
 ## Example
 
